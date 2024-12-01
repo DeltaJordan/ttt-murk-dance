@@ -41,6 +41,8 @@ SWEP.CanBuy = {ROLE_TRAITOR}
 -- [Sound Name, Shoot Sound Length, Dance Sound Length]
 local shootSounds = {
     {"bad", 0.975, 16.731},
+    {"dk", 1.387, 13.06},
+    {"dk2", 1.708, 17.824},
     {"doomfart", 0.79, 13.172},
     {"fire", 1.486, 16.015},
     {"fortnitevictoryroyale", 1.939, 6.694},
