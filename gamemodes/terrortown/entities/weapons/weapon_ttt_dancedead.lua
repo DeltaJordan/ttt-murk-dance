@@ -80,7 +80,8 @@ function SWEP:PrimaryAttack()
                 end)
 
                 ent:GodEnable()
-                ent:ConCommand("thirdperson_etp 1")
+                // Removed thirdperson command due to bugs with the upstream mod.
+                // ent:ConCommand("thirdperson_etp 1")
 
                 timer.Create("DanceDeadGunTimer" .. ent:EntIndex(), 1, chosenSounds[3], function()
                     local danceChange = math.random(2)
